@@ -1,0 +1,38 @@
+.code__adresse{
+    margin: 10px;
+    padding: 10px;
+    border-left: 4px solid #005;
+    background-color: #ddd;
+}
+
+.boite__modale {
+    background-color: aqua;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    color: black;
+    top: 25vh;
+    left: 25vw;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+}
+
+.boite__modale__ouvrir {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.boite__x {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.elBoiteContenu {
+    text-align: center;
+    margin-top: 25%;
+    font-size: 16pt;
+}
